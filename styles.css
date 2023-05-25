@@ -164,3 +164,7 @@ body {
     max-width: 300px;
     height: auto;
   }
+  
+  section#about {
+    margin-top: -10px; /* Adjust the negative margin value as desired */
+  }
