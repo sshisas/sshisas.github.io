@@ -149,8 +149,8 @@ body {
 
   
   section#profile-photo {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: -20px;
   }
   
   .profile-photo-container {
