@@ -148,12 +148,13 @@ body {
     color: #CCCCCC;
   }
 
-  .profile-photo-container {
-    display: flex;
-    justify-content: center;
-  }
   
-  .profile-photo {
-    max-width: 1000px;
-    height: auto;
-  }
+.profile-photo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-photo {
+  max-width: 200px;
+  height: auto;
+}
