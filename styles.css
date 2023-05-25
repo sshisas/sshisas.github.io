@@ -147,3 +147,13 @@ body {
   .sticky nav ul li a:hover {
     color: #CCCCCC;
   }
+
+  .profile-photo-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-photo {
+    max-width: 300px;
+    height: auto;
+  }
