@@ -57,7 +57,6 @@ body {
   
   .hero-content h1 {
     font-size: 48px;
-    margin-bottom: 20px;
     color: #FFFFFF;
   }
   
@@ -155,6 +154,6 @@ body {
 }
 
 .profile-photo {
-  max-width: 200px;
-  height: auto;
+  max-width: auto;
+  height: 500px;
 }
