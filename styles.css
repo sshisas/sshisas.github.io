@@ -154,6 +154,6 @@ body {
 }
 
 .profile-photo {
-  max-width: auto;
-  height: 800px;
+  max-width: 600px;
+  height: auto;
 }
