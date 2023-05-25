@@ -1,3 +1,5 @@
+// Add any JavaScript functionality here
+
 // Smooth scrolling for navigation links
 document.addEventListener('DOMContentLoaded', function() {
     const navLinks = document.querySelectorAll('nav ul li a');
@@ -18,3 +20,15 @@ document.addEventListener('DOMContentLoaded', function() {
       behavior: 'smooth'
     });
   }
+  
+  // Sticky header
+  window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+    const heroSection = document.querySelector('#hero');
+  
+    if (window.pageYOffset > heroSection.offsetHeight) {
+      header.classList.add('sticky');
+    } else {
+      header.classList.remove('sticky');
+    }
+  });
