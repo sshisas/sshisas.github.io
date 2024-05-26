@@ -41,6 +41,16 @@
             height: 800px;
             border: none; /* Optional: Remove iframe border */
         }
+        @media screen and (max-width: 768px) {
+            iframe {
+                height: 500px; /* Adjust the height for smaller screens */
+            }
+        }
+        @media screen and (max-width: 480px) {
+            iframe {
+                height: 300px; /* Further adjust the height for very small screens */
+            }
+        }
     </style>
 </head>
 <body>
@@ -57,3 +67,4 @@
     </div>
 </body>
 </html>
+
